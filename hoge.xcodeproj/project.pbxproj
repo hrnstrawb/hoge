@@ -253,10 +253,14 @@
 		E16554FE15CFBB440030A860 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Takayuki Tominaga (Y5996EJT65)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Takayuki Tominaga (Y5996EJT65)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "hoge/hoge-Prefix.pch";
 				INFOPLIST_FILE = "hoge/hoge-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7ED711A0-8340-469C-BC8E-B163931CA3CD";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7ED711A0-8340-469C-BC8E-B163931CA3CD";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -264,10 +268,14 @@
 		E16554FF15CFBB440030A860 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Takayuki Tominaga (Y5996EJT65)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Takayuki Tominaga (Y5996EJT65)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "hoge/hoge-Prefix.pch";
 				INFOPLIST_FILE = "hoge/hoge-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7ED711A0-8340-469C-BC8E-B163931CA3CD";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "7ED711A0-8340-469C-BC8E-B163931CA3CD";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
