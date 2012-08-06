@@ -16,6 +16,7 @@
 		E16554F415CFBB440030A860 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E16554F315CFBB440030A860 /* ViewController.m */; };
 		E16554F715CFBB440030A860 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E16554F515CFBB440030A860 /* ViewController_iPhone.xib */; };
 		E16554FA15CFBB440030A860 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = E16554F815CFBB440030A860 /* ViewController_iPad.xib */; };
+		E507A29F15CFD61C00D1B95D /* README in Resources */ = {isa = PBXBuildFile; fileRef = E507A29E15CFD61C00D1B95D /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		E16554F315CFBB440030A860 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E16554F615CFBB440030A860 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		E16554F915CFBB440030A860 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		E507A29E15CFD61C00D1B95D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		E16554D115CFBB430030A860 = {
 			isa = PBXGroup;
 			children = (
+				E507A29E15CFD61C00D1B95D /* README */,
 				E16554E615CFBB440030A860 /* hoge */,
 				E16554DF15CFBB430030A860 /* Frameworks */,
 				E16554DD15CFBB430030A860 /* Products */,
@@ -155,6 +158,7 @@
 				E16554EB15CFBB440030A860 /* InfoPlist.strings in Resources */,
 				E16554F715CFBB440030A860 /* ViewController_iPhone.xib in Resources */,
 				E16554FA15CFBB440030A860 /* ViewController_iPad.xib in Resources */,
+				E507A29F15CFD61C00D1B95D /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +303,7 @@
 				E16554FF15CFBB440030A860 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
